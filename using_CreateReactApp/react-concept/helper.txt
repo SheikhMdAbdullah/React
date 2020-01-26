@@ -1,0 +1,5 @@
+{/* ---------- imported library or component(class of another component) 'Header' is used as a HTML tag to nest it insite this component */}
+{/* ---------- 1. normal way to nest*/}
+<Header />
+{/* ---------- 2. using prop to nest, sending data to the child component. prop can have its name and value. multiple props can be passed */}
+<Header id="1" massage="good going"  />
